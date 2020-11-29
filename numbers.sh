@@ -12,6 +12,6 @@ do
 	else
 		echo $N "odd"
 	fi
-	N=$[$N+1]
+	N=$(($N+1))
 done
 echo "Thank you"
