@@ -4,7 +4,7 @@
 echo "Enter a positive integer: "
 read NUMBER 
 N=1
-while [ "$N" -lt "$NUMBER" ]
+while [ "$N" -le "$NUMBER" ]
 do 
 	if [ $((N%2)) -eq 0 ]
 	then 
